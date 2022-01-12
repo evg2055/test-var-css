@@ -1,0 +1,22 @@
+:root {
+    --content-color: red;
+    color: brown;
+}
+* {
+    box-sizing: border-box;
+}
+.page {
+    display: flex;
+}
+.content {
+
+    width: 60%;
+    margin: 20px;
+    color: var(--content-color);
+}
+.about {
+    --content-color: blue;
+    width: 30%;
+    margin: 20px;
+    color: var(--content-color);
+}
